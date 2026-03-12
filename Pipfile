@@ -6,6 +6,13 @@ name = "pypi"
 [packages]
 django = "*"
 djangorestframework = "*"
+django-allauth = "*"
+dj-rest-auth = "*"
+django-cors-headers = "*"
+pillow = "*"
+mysqlclient = "*"
+djangorestframework-simplejwt = "*"
+requests = "*"
 
 [dev-packages]
 

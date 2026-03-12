@@ -35,6 +35,7 @@ class UserManager(BaseUserManager):
 
         return self.create_user(email, full_name, password, **extra_fields)
 class User(AbstractBaseUser, PermissionsMixin):
+    username = None
 
     AUTH_PROVIDERS = (
         ("email", "Email"),
